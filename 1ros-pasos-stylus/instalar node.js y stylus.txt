@@ -1,0 +1,30 @@
+http://www.cristalab.com/tutoriales/como-instalar-sublimetext-stylus-y-emmet-c113554l/
+
+primero nos vamos a cmd y escribimios:
+
+npm install -g stylus
+
+de hay creamos un archivo estilos.css y uno stylus.styl
+
+vamos de nuevo a consola y nos vamos a la ruta donde estamos creado  el repositorio
+en este caso c:xampp\htdocs\curso-frontend
+para movernos es el cd...
+y para ingresar la ruta
+cp c:xampp\htdocs\curso-frontend
+
+una vez hay escribimos 
+
+stylus -w -c estilo.styl 
+ 
+y damos enter, en este caso nos mostrara unas lineas q diran comling y otro watching,  si aparece
+esto ya funciona bien, quiere decir q esta compilando el estilo.styl y creara un archivo
+estilo.css . el cual cada vez q guardemos alguna modificacion en estilo.styl se guardaran los
+cambios en estilo.css
+
+en caso que no aparesca esto, quiere decir q no intalamos bien el stylus, asu q agamos lso mismos pasos
+solo que asegurandonos q estamos en la carpeta que queremos trabajar con stylus
+
+en el video de frontend tambien esta npm nib//estaria bien leer sobre este y utilizarlo tiene buenas opciones. como qur todas las 
+estilos los  las etiquetas para todos los navegadores automaticamente
+
+
